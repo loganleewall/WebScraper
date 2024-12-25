@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Crawler</title>
+</head>
+<body>
+    <h1>Google Search Crawler</h1>
+    <form method="POST">
+        <label for="query">Search Query:</label>
+        <input type="text" id="query" name="query" required><br><br>
+        
+        <label for="start_date">Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required><br><br>
+
+        <label for="end_date">End Date:</label>
+        <input type="date" id="end_date" name="end_date" required><br><br>
+
+        <label for="include_websites">Websites to Include (comma-separated):</label>
+        <input type="text" id="include_websites" name="include_websites"><br><br>
+
+        <label for="exclude_websites">Websites to Exclude (comma-separated):</label>
+        <input type="text" id="exclude_websites" name="exclude_websites"><br><br>
+        
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
