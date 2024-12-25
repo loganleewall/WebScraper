@@ -39,34 +39,3 @@ def scrape_html_with_proxy(urls):
     
 
     return html_content_dict
-
-# urls = ["https://berkeleyca.gov/", "https://en.wikipedia.org/wiki/Berkeley,_California"]
-
-# scrape_html_with_proxy(urls)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
